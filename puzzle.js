@@ -16,7 +16,7 @@ btnShuffle.addEventListener('click', () => {
   }
 })
 
-function tileValidation (column, row) {
+function clickTile (row, column) {
   if (column < 3) {
     if (document.getElementById('cell' + row + (column + 1)).className === 'tile9') {
       swapTiles('cell' + row + column, 'cell' + row + (column + 1))
@@ -40,14 +40,5 @@ function tileValidation (column, row) {
       swapTiles('cell' + row + column, 'cell' + (row + 1) + column)
     }
   }
-}
-
-function clickTile (row, column) {
-  let cell = document.getElementById('cell' + row + column)
-  let tile = cell.className
-  if (tile !== 'tile9') {
-    tileValidation(column, row)
-  }
-
 }
 
