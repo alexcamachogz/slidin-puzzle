@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;700&display=swap');
+
+:root {
+  --primary: #B4AEE8;
+  --secondary: #A7BBC7;
+  --tertiary: #93329E;
+  --white: #FFFFFF;
+  --gray: #E1E5EA;
+  --black: #343A40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.header .header__title {
+  font-size: 3rem;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  background-color: var(--primary);
+  background-image: url('images/numbers.png');
+  background-repeat: no-repeat;
+  background-size: 40rem;
+  cursor: pointer;
+}
+
+.tile1 {
+  background-position-x: 35px;
+  background-position-y: -15px;
+}
+
+.tile2 {
+  background-position-x: -50px;
+  background-position-y: -15px;
+}
+
+.tile3 {
+  background-position-x: center;
+  background-position-y: -15px;
+}
+
+.tile4 {
+  background-position-x: -225px;
+  background-position-y: -15px;
+}
+
+.tile5 {
+  background-position-x: -315px;
+  background-position-y: -15px;
+}
+
+.tile6 {
+  background-position-x: 35px;
+  background-position-y: -125px;
+}
+
+.tile7 {
+  background-position-x: -50px;
+  background-position-y: -125px;
+}
+
+.tile8 {
+  background-position-x: -140px;
+  background-position-y: -125px;
+}
+
+.tile9 {
+  background-image: none;
+  background-color: var(--secondary);
+  cursor: default;
+}
+
+
+/* Button */
+.shuffle {
+  width: 30rem;
+  text-align: center;
+}
+
+.shuffle .shuffle__button {
+  width: 15rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: var(--tertiary);
+  color: var(--white);
+  font-size: 1.8rem;
+  box-shadow: 0 4px 0 0 var(--primary);
+}
+
+.shuffle .shuffle__button:active {
+  background-color: var(--primary);
+}
