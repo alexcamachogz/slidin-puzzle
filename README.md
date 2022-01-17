@@ -8,6 +8,7 @@
 
 This is teh traditional Sliding puzzle, try it and let me know what do you think about it.
 You can see it here → [Sliding Puzzle](https://slidin-puzzle-alexcamachogz.vercel.app).
+Also you can visit on CodePen [here](https://codepen.io/alexcamachogz/pen/MWExMXa)
 
 ## Table of contents
 
