@@ -7,7 +7,7 @@
 <h1 id="puzzle">🧩 Sliding Puzzle </h1>
 
 This is teh traditional Sliding puzzle, try it and let me know what do you think about it.
-You can see it here → [Sliding Puzzle](http://puzzle.alexcamachogz.com/).
+You can see it here → [Sliding Puzzle](https://slidin-puzzle-alexcamachogz.vercel.app).
 
 ## Table of contents
 
